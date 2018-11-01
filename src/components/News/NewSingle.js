@@ -28,13 +28,6 @@ import React from 'react';
         </div>
       )
     }
-    if(source==='Business Insider'){
-      return (
-        <div className="element-item blue1 newsArticle news-box col-md-4 col-sm red1Link">
-          {artFrame}
-        </div>
-      )
-    }
     if(source==='Tech Crunch'){
       return (
 
