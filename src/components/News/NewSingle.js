@@ -21,7 +21,14 @@ import React from 'react';
       </a>
     )
 
-    if(source==='BBC News'||source==='Business Insider'){
+    if(source==='BBC News'){
+      return (
+        <div className="element-item red1 newsArticle news-box col-md-4 col-sm red1Link">
+          {artFrame}
+        </div>
+      )
+    }
+    if(source==='Business Insider'){
       return (
         <div className="element-item red1 newsArticle news-box col-md-4 col-sm red1Link">
           {artFrame}
@@ -36,7 +43,7 @@ import React from 'react';
         </div>
       )
     }
-  
+
     if(source==='Bloomberg'){
       return (
         <div className="element-item purple newsArticle news-box col-md-3 col-sm purpleLink">

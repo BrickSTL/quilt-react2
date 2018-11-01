@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^1.0.0",
     "axios": "^0.18.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.3.1",
@@ -30,6 +29,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^1.2.0"
   }
 }
