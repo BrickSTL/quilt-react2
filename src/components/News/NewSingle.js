@@ -30,7 +30,7 @@ import React from 'react';
     }
     if(source==='Business Insider'){
       return (
-        <div className="element-item red1 newsArticle news-box col-md-4 col-sm red1Link">
+        <div className="element-item blue1 newsArticle news-box col-md-4 col-sm red1Link">
           {artFrame}
         </div>
       )
