@@ -1,9 +1,10 @@
 {
-  "homepage": "http://BrickSTL.github.io/quilt-react-github-pages",
+  "homepage": "http://BrickSTL.github.io/quilt-react2",
   "name": "quilt-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "axios": "^0.18.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.3.1",
