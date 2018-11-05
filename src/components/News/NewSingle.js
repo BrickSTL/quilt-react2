@@ -15,7 +15,7 @@ import React from 'react';
         <span className='row'><p className='sourceDisplay'>{item.source.name}</p></span>
         <span className='row'>{item.author}</span>
         <span className='row'>{item.publishedAt}</span>
-        <p className="row"><i class="fa fa-save"></i> Save Article</p>
+        <p className="row"><i className="fa fa-save"></i> Save Article</p>
 
         </div>
       </a>
