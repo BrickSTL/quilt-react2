@@ -14,7 +14,8 @@ class News extends Component {
         //convert this to ES7 async await fun project 
     fetch(url)
       .then((response) => {
-        return response.json();
+        return response.json();   //axios allows you to remove this JSON return as it all ready formats to JSON 
+                                  //post request, put, delete, etc. 
       })
       .then((data) => {
         this.setState({
