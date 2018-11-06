@@ -16,7 +16,7 @@ class Sidenews extends Component {
     const url = `https://newsapi.org/v2/${this.props.news.type}?${this.props.news.query}&apiKey=3c5c8f726f4f4d87a352e63017c68eb0`;
 
     axios.get(url)
-      .then((response) => {
+      .then((response) => { //Axios does not need to request JSON method 
         this.setState({
           sidenews: response.data.articles
         })
