@@ -8,10 +8,10 @@ class News extends Component {
       news: [],
     };
   }
-
+//nav. location to get users current location take location and put in API lat and long. 
   componentDidMount() {
-    const url = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=774beda1345847508da686c538fe6698';
-
+    const url = 'https://newsapi.org/v2/top-headlines?country=us&category={}&apiKey=process.env.NEWS_API_KEY';
+        //convert this to ES7 async await fun project 
     fetch(url)
       .then((response) => {
         return response.json();
