@@ -20,28 +20,23 @@ code {
   z-index: 3;
   background-color: #fef0ea;
 }
+
 .navbar-brand{
   border: 1px solid #495057;
-  padding: 0 .6rem;
   width:5.5%;
-  overflow:hidden;
 }
+
 .navbar-brand .row{
-  height: .6rem;
   margin-right:1rem;
   opacity: .7;
   visibility:hidden;
 }
 #logo-text{
-  position: absolute;
   color:#495057;
-  margin: 1.1% 0;
   z-index: 2;
   font-size:1.5rem;
 }
-.logo-holder{
-   width: 7rem;
-}
+
 #darkblue{
   background:darkblue;
 }
@@ -352,6 +347,9 @@ img {
 
 
 /* EMAIL LINE */
+.App .email-line {
+  text-align: justify;
+}
 .holder{
   margin-top:3%;
   z-index:2;
@@ -456,7 +454,7 @@ img {
   color:#073791;
 }
 .ball{
-  background-image:url("./OvalShadesLogo.png") ;  
+  background-image:url("./OvalShadesLogo.png") ;
   height: 3.2rem;
   width: 3.2rem;
   margin: .2rem .2rem;
