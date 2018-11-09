@@ -24,7 +24,7 @@ import React from 'react';
       /*RED 3*/
       case 'Breitbart News':
         return (
-          <div className="element-item red3 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item red3 newsArticle col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -32,7 +32,7 @@ import React from 'react';
       /*RED 2*/
       case 'Fox News':
         return (
-          <div className="element-item red2 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item red2 newsArticle col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -40,7 +40,7 @@ import React from 'react';
       /*RED 1*/
       case 'The Wall Street Journal':
         return (
-          <div className="element-item red1 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item red1 newsArticle col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -53,7 +53,7 @@ import React from 'react';
       case 'NPR':
       case 'BBC News':
         return (
-          <div className="element-item blue1 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item blue1 col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -65,7 +65,7 @@ import React from 'react';
       case 'Vice News':
       case 'Wired':
         return (
-          <div className="element-item blue2 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item blue2 col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -75,7 +75,7 @@ import React from 'react';
       case 'MSNBC':
       case 'The Huffington Post':
         return (
-          <div className="element-item blue3 newsArticle news-box col-md-3 col-sm">
+          <div className="element-item blue3 col-md-3 col-sm">
             {artFrame}
           </div>
         )
@@ -83,7 +83,7 @@ import React from 'react';
       /*PURPLE*/
       default:
         return (
-          <div className="element-item purple newsArticle news-box col-md-3 col-sm">
+          <div className="element-item purple col-md-3 col-sm">
             {artFrame}
           </div>
         )

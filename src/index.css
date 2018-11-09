@@ -6,14 +6,7 @@ body{
 nav{
   border-bottom:1px lightgray solid;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-.green {
-  background: green;
-  color: red;
-}
+
 .navbar{
   position: fixed;
   width: 100%;
@@ -37,27 +30,6 @@ code {
   font-size:1.5rem;
 }
 
-#darkblue{
-  background:darkblue;
-}
-#blue{
-  background:blue;
-}
-#lightblue{
-  background:lightblue;
-}
-#purple{
-  background:purple;
-}
-#lightred{
-  background:pink;
-}
-#red{
-  background:red;
-}
-#darkred{
-  background:darkred;
-}
 .nav-link:hover{
   color:#6700FF;
 }
@@ -287,83 +259,6 @@ img {
   padding: 1%;
   margin: 0;
 }
-.red1Link{
-  background: pink;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.red1Link a {
-  color:black;
-}
-.red2Link{
-  background: red;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.red2Link a {
-  color:black;
-}
-.red3Link{
-  background: darkred;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.red3Link a {
-  color:white;
-}
-.red4Link{
-  background: darkred;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.red4Link a {
-  color:white;
-}
-.purpleLink{
-  background: purple;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.purpleLink a {
-  color:white;
-}
-.blue1Link{
-  background: lightblue;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.blue1Link a {
-  color:black;
-}
-.blue2Link{
-  background: blue;
-  color:white;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.blue2Link a {
-  color:white;
-}
-.blue3Link{
-  background: darkblue;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.blue3Link a {
-  color:white;
-}
-.blue4Link{
-  background: #0c1f6d;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.blue4Link a {
-  color:white;
-}
-
-
-
-
 
 /* EMAIL LINE */
 .App .email-line {

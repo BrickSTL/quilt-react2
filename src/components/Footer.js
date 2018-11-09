@@ -5,7 +5,13 @@ const Footer = () => (
       <div className="row footer-content mx-0 mt-md-5 mb-md-5">
         <div className="col-md-2 ml-md-5">
           <div className="footer-logo text-center">
-            <h2><span>Q</span><span>U</span><span>I</span><span>L</span><span>T</span><span></span></h2>
+            <h2>
+            <span style={{"color": "#4600FF"}}>Q</span>
+            <span style={{"color": "#4F00CF"}}>U</span>
+            <span style={{"color": "#90007F"}}>I</span>
+            <span style={{"color": "#C50044"}}>L</span>
+            <span style={{"color": "#FF0000"}}>T</span>
+            </h2>
             <hr/>
             <div className="row">
               <div className="ball ball1"></div>

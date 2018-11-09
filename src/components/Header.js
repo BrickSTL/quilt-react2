@@ -1,20 +1,25 @@
 import React from 'react';
 
+
+
 const Header = () => (
   <header className="header container-fluid px-0 mr-0 mb-md-5">
     <div className='row'>
-      {/*RIGHT SIDE LOGO*/}
       <div className="col-md-5">
         <div className="desk-header-right">
-          <h1 className="desk-logo">QUILT</h1>
+          <h1 className="desk-logo">
+            <span style={{"color": "#4600FF"}}>Q</span>
+            <span style={{"color": "#4F00CF"}}>U</span>
+            <span style={{"color": "#90007F"}}>I</span>
+            <span style={{"color": "#C50044"}}>L</span>
+            <span style={{"color": "#FF0000"}}>T</span>
+          </h1>
           <hr  />
-          <span>News - Policy - Opinion</span>
+          <span style={{"color": "#172893"}}>News - Policy - Opinion</span>
         </div>
       </div>
-      {/*SPACE HOLDER*/}
       <div className="col-md">
       </div>
-      {/*FILTER HOLDER*/}
       <div className="col-md-6 d-md-block pt-3 px-0 " id="filtercol">
         <div className="row justify-content-evenly">
           <div className="col-md-6 col-sm text-center p-0">
