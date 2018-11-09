@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/quilt-react2/precache-manifest.c522f5a1abf5faded2dc0968dfed3157.js"
+  "/quilt-react2/precache-manifest.6f5e411a2f66a59bbdc1af435f6f4402.js"
 );
 
 workbox.clientsClaim();
