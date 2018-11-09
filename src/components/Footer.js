@@ -56,7 +56,7 @@ const Footer = () => (
         </div>
       </div>
     <div className="row pt-4 footer-copyright-row">
-      <div className="footer-copyright col px-md-4 p-sm-0"><span>© 2018 :
+      <div className="footer-copyright col px-md-4 text-left p-sm-0"><span>2018 :
         <a className="font-weight-light" href="http://benmerrill.biz/"> Ben Merrill Design</a></span>
       </div>
       <div className="col text-right desk-contact-ads">

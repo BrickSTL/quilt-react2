@@ -20,122 +20,74 @@ import React from 'react';
         </div>
       </a>
     )
-
-    if(source==='BBC News'){
-      return (
-        <div className="element-item red1 newsArticle news-box col-md-4 col-sm red1Link">
-          {artFrame}
-        </div>
-      )
+    switch (source) {
+      /*RED 3*/
+      case 'Breitbart News':
+        return (
+          <div className="element-item red3 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*RED 2*/
+      case 'Fox News':
+        return (
+          <div className="element-item red2 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*RED 1*/
+      case 'The Wall Street Journal':
+        return (
+          <div className="element-item red1 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*BLUE 1*/
+      case 'The New York Times':
+      case 'Axios':
+      case 'The Washington Post':
+      case 'The Guardian (UK)':
+      case 'NPR':
+      case 'BBC News':
+        return (
+          <div className="element-item blue1 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*BLUE 2*/
+      case 'CBS News':
+      case 'Politico':
+      case 'New York Magazine':
+      case 'Vice News':
+      case 'Wired':
+        return (
+          <div className="element-item blue2 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*BLUE 3*/
+      case 'Buzzfeed':
+      case 'MSNBC':
+      case 'The Huffington Post':
+        return (
+          <div className="element-item blue3 newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
+        break;
+      /*PURPLE*/
+      default:
+        return (
+          <div className="element-item purple newsArticle news-box col-md-3 col-sm">
+            {artFrame}
+          </div>
+        )
     }
-    if(source==='Tech Crunch'){
-      return (
-
-        <div className="element-item red2 newsArticle news-box col-md-3 col-sm red2Link">
-          {artFrame}
-        </div>
-      )
-    }
-
-    if(source==='Bloomberg'){
-      return (
-        <div className="element-item purple newsArticle news-box col-md-3 col-sm purpleLink">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='CNBC'){
-      return (
-        <div className="element-item blue2 newsArticle news-box col-md-3 col-sm blue2Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='The Wall Street Journal'){
-      return (
-        <div className="element-item red1 newsArticle news-box col-md-3 col-sm red1Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='USA Today'){
-      return (
-        <div className="element-item purple1 newsArticle news-box col-md-3 col-sm purpleLink">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Reuters'){
-      return (
-        <div className="element-item blue1 newsArticle news-box col-md-3 col-sm blue1Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='CNN'){
-      return (
-        <div className="element-item blue3 newsArticle news-box col-md-3 col-sm blue3Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Fox News'){
-      return (
-        <div className="element-item red3 newsArticle news-box col-md-3 col-sm red3Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='The Hill'){
-      return (
-        <div className="element-item red1 newsArticle news-box col-md-3 col-sm red1Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Slate.com'){
-      return (
-        <div className="element-item blue4 newsArticle news-box col-md-3 col-sm blue4Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Foxbusiness.com'){
-      return (
-        <div className="element-item red3 newsArticle news-box col-md-3 col-sm red3Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Marketwatch.com'){
-      return (
-        <div className="element-item blue1 newsArticle news-box col-md-3 col-sm blue1Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='Time'){
-      return (
-        <div className="element-item red2 newsArticle news-box col-md-3 col-sm red2Link">
-          {artFrame}
-        </div>
-      )
-    }
-    if(source==='The New York Times'){
-      return (
-        <div className="element-item blue2 newsArticle news-box col-md-3 col-sm blue2Link">
-          {artFrame}
-        </div>
-      )
-    }
-    else {
-      return (
-        <div className="element-item purple newsArticle news-box col-md-3 col-sm purpleLink">
-          {artFrame}
-        </div>
-      )
-    }
-
   };
 
 

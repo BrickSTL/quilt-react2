@@ -175,42 +175,61 @@ input[type="checkbox"]:checked + label span {
   border: 3px solid gold;
   outline: none;
 }
-/* FADE COLORS */
-#red1 {
-  background: magenta;
-  color: magenta;
+/* COLORS */
+.red1 {
+  background: #ffa7a3;
+  color: #ffa7a3;
 }
-#red2 {
+.red1 a {
+  color: black;
+}
+.red2 {
   background: red;
   color:red;
 }
-#red3 {
+.red2 a {
+  color: black;
+}
+.red3 {
   background: darkred;
   color: darkred;
 }
-#red4 {
+.red3 a {
+  color: black;
+}
+.red4 {
   background: #5E161E;
   color: #5E161E;
 }
-
-#purple1 {
+.purple {
   background: purple;
   color: purple;
 }
-
-#blue1 {
+.purple a {
+  color: white;
+}
+.blue1 {
   background: lightblue;
   color: lightblue;
 }
-#blue2 {
+.blue1 a {
+  color: black;
+}
+.blue2 {
   background: #6E00ED;
   color: #6E00ED;
 }
-#blue3 {
+.blue2 a {
+  color: black;
+}
+.blue3 {
   background: blue;
   color: blue;
 }
-#blue4 {
+.blue3 a {
+  color: black;
+}
+.blue4 {
   background: #22008D;
   color: #22008D;
 }

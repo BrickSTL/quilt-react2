@@ -61,36 +61,36 @@ const Header = () => (
                       <div className="button-group filters-button-group">
                         <div className="row">
 
-                          <div className="col fade-check" id="red1">
-                            <button className="button" data-filter=".red1" id="red1">r1</button>
+                          <div className="col fade-check">
+                            <button className="button red1" data-filter=".red1">r1</button>
                           </div>
-                          <div className="col fade-check" id="red3">
-                            <button className="button" data-filter=".red3" id="red3">r3</button>
+                          <div className="col fade-check">
+                            <button className="button red2" data-filter=".red3">r3</button>
                           </div>
                           <div className="col fade-check" id="red4">
-                            <button className="button" data-filter=".red4" id="red4">r4</button>
+                            <button className="button red3" data-filter=".red4">r4</button>
                           </div>
                         </div>
                         <div className="row">
-                          <div className="col fade-check" id="blue1">
-                            <button className="button"  data-filter=".blue1" id="blue1">b1</button>
+                          <div className="col fade-check">
+                            <button className="button blue1"  data-filter=".blue1">b1</button>
                           </div>
-                          <div className="col fade-check" id="purple1">
-                            <button className="button" data-filter=".purple1" id="purple1">p0</button>
+                          <div className="col fade-check">
+                            <button className="button purple" data-filter=".purple1">p0</button>
                           </div>
-                          <div className="col fade-check" id="red2">
-                            <button className="button" data-filter=".red2" id="red2">r2</button>
+                          <div className="col fade-check">
+                            <button className="button red2" data-filter=".red2">r2</button>
                           </div>
                         </div>
                         <div className="row">
-                            <div className="col fade-check" id="blue4">
-                              <button className="button" data-filter=".blue4" id="blue4">b4</button>
+                            <div className="col fade-check">
+                              <button className="button blue4" data-filter=".blue4">b4</button>
                             </div>
-                            <div className="col fade-check" id="blue3">
-                              <button className="button" data-filter=".blue3" id="blue3">b3</button>
+                            <div className="col fade-check">
+                              <button className="button blue3" data-filter=".blue3">b3</button>
                             </div>
-                            <div className="col fade-check" id="blue2">
-                              <button className="button" data-filter=".blue2" id="blue2">b2</button>
+                            <div className="col fade-check">
+                              <button className="button blue2" data-filter=".blue2">b2</button>
                             </div>
                         </div>
                     </div>
