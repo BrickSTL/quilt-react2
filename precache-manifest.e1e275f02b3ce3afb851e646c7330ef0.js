@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/quilt-react2/static/js/runtime~main.3877f9b9.js"
   },
   {
-    "revision": "a9b41df8a2bbb8d7b976",
-    "url": "/quilt-react2/static/js/main.a9b41df8.chunk.js"
+    "revision": "b9485e86a25af9bafc32",
+    "url": "/quilt-react2/static/js/main.b9485e86.chunk.js"
   },
   {
     "revision": "94cbadbfa790f676ca94",
     "url": "/quilt-react2/static/js/1.94cbadbf.chunk.js"
   },
   {
-    "revision": "a9b41df8a2bbb8d7b976",
-    "url": "/quilt-react2/static/css/main.3b6bae68.chunk.css"
+    "revision": "b9485e86a25af9bafc32",
+    "url": "/quilt-react2/static/css/main.9e8dedc7.chunk.css"
   },
   {
-    "revision": "ce3c6a13e07230de6d819927e7675732",
+    "revision": "449de64563d2d67248dbfafb84c6694d",
     "url": "/quilt-react2/index.html"
   }
 ];
