@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavBar = () => (
-  <nav className="navbar navbar-fixed-top navbar-expand-lg navbar-light  justify-content-between">
+  <nav className="navbar navbar-expand-lg navbar-light">
     <a className="navbar-brand ml-4" href="#">
       <div className="logo-holder">
        <span className="logo-text-mobile"id='logo-text'>Quilt</span>

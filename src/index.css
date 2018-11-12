@@ -3,6 +3,8 @@ body{
   background-color: #FCF0EB;
   font-family: 'Maven Pro', sans-serif;
 }
+
+/* NavBar */
 nav{
   border-bottom:1px lightgray solid;
 }
@@ -14,16 +16,12 @@ nav{
   background-color: #fef0ea;
 }
 
+/* NavBar Logo */
 .navbar-brand{
   border: 1px solid #495057;
   width:5.5%;
 }
 
-.navbar-brand .row{
-  margin-right:1rem;
-  opacity: .7;
-  visibility:hidden;
-}
 #logo-text{
   color:#495057;
   z-index: 2;
@@ -33,64 +31,56 @@ nav{
 .nav-link:hover{
   color:#6700FF;
 }
-.active{
-  text-decoration:underline;
-}
-/* NAV - ACCOUNT */
-.dropdown-menu{
-  min-width: 15rem;
-}
-#form-item{
-  margin:4% auto 6%;
-  padding:0;
-}
-.form-btns{
-  display:flex;
-  justify-content:center;
-}
+/* NavBar - Right Side Links */
+/* NavBar - ACCOUNT */
+
 .form-btn{
-  height:2rem;
   font-size:.8rem;
   margin: 0 6%
 }
+
+.dropdown-menu{
+  min-width: 15rem;
+}
+
 /*NAV - SAVED ARTICLES*/
 .saved-caret::after{
   display:none;
 }
+
 #saved-article-note{
     display: flex;
     margin: .5rem;
     text-align: center;
 }
-.header {
-  padding-top: 10%;
-}
+
 /* HEADER */
+.header {
+  padding: 10% 0 5% 0;
+  color: #101493;
+}
+
 .header.row{
  margin:0;
 }
+/* Header Logo */
 .desk-logo{
   font-size:7rem;
 }
-#filtercol{
- color: #101493;
-}
-.filter-box{
-  height: 8.5rem;
-}
+
+/* Filters */
+
 .filter-box ul{
   list-style:none;
 }
+
 .mobile-filters{
   display:none;
 }
-/* CHECKBOXES */
+
+/* Filter CHECKBOXES */
 input[type="checkbox"] {
     display:none;
-}
-
-input[type="checkbox"] + label {
-/*     color:#101493; */
 }
 
 input[type="checkbox"] + label span {
@@ -104,20 +94,11 @@ input[type="checkbox"] + label span {
     cursor:pointer;
 }
 
-input[type="checkbox"]:checked + label span {
-    background:#101493;
-}
-/* FADE BOX OPTIONS */
-.fade-box{
-  border:1px #343436 solid;
-}
-.fade-box-mobile{
-  display:none;
-}
 .instructions-line{
   display: none;
 }
-/* BIAS Lines */
+
+/* Bias Lib/Con Lines */
 .bias{
   writing-mode: vertical-rl;
   text-orientation: sideways;
@@ -125,29 +106,35 @@ input[type="checkbox"]:checked + label span {
   color: #101493;
   font-size: .9rem;
 }
+
 .bias-lib{
   transform: rotate(180deg);
 }
+
 .bias-con{
   padding-bottom:23%;
 }
+
+/* Filters Colors Box Details*/
+.fade-box{
+  border:1px #343436 solid;
+}
+
+.fade-box-mobile{
+  display:none;
+}
 .fade-check{
-  height: 2.5rem;
   margin: 1.5px;
   padding:0;
 }
+
 .fade-check button{
   border:none;
   width:100%;
   height: 2.5rem;
-
 }
 
- button.is-checked:focus {
-  border: 3px solid gold;
-  outline: none;
-}
-/* COLORS */
+/* COLORS - Details */
 .red1 {
   background: #ffa7a3;
   color: #ffa7a3;
@@ -205,55 +192,45 @@ input[type="checkbox"]:checked + label span {
   background: #22008D;
   color: #22008D;
 }
-/* SORT BUTTON */
-.sort-btn {
-  width: 30%;
-  margin: 2.5rem auto;
-  font-size:1.3rem;
-}
+
 /* MAIN */
-.grid {
-  border: 1px solid #333;
-  padding:0;
-}
 
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-
-
+/* Cards */
 .element-item {
   border:black 1px solid;
   padding: 0;
   height: 300px;
 }
+
 .card {
   background-color: transparent;
   color: black;
   text-decoration: none;
 }
-/* MAIN - SHADES */
+
+/* Article Image */
 .card-image {
   opacity: .35;
 }
+
 img {
   height: 300px;
   width: 100%;
 }
+
+/* Article Copy Text */
 .article-text{
   bottom: 10%;
   position: absolute;
   left: 11%;
   width: 75%;
-
+  text-align: left;
 }
+/* Save direction */
 .fa {
   margin: 1%;
 }
+
 .sourceDisplay{
   border: 1px solid black;
   padding: 1%;
@@ -264,6 +241,8 @@ img {
 .App .email-line {
   text-align: justify;
 }
+
+/* Content Holder */
 .holder{
   margin-top:3%;
   z-index:2;
@@ -271,46 +250,56 @@ img {
   display:inline-flex;
   width:100%;
 }
+
+/* Email Instructions Box */
 .emailer{
   border:3px solid black;
 }
+
 .emailer span{
   font-size:1.8rem;
 }
+
+/* Email Form Line */
 .form-control {
     background: transparent;
     border: none;
-    width: 80%;
-    margin: 0 auto;
     border-bottom: 1px solid black;
     border-radius: 0;
 }
+
+.form-control:after{
+  background:none;
+}
+
 .form-control:focus{
   background:transparent;
   box-shadow: none;
 }
-::-webkit-input-placeholder { color: #666;}
-:-moz-placeholder { color: #666; }
-::-moz-placeholder { color: #666; }
-:-ms-input-placeholder { color: #666; }
+
+/* Email button */
 #email-button{
     border:3px solid black;
     background:none;
     height: 7rem;
     width: 5rem;
-  }
+}
+
 #email-button:hover{
     background-color:lightgray;
 }
+
+/* Email Arrow Icon*/
 .btn .fa{
   font-size: 5.5rem;
 }
+
+/* Email Line Background */
 .background-div{
   height: 12rem;
 }
-.form-control:after{
-  background:none;
-}
+
+/* Email Background Colors */
 .background-div-lightblue{
   background: #4600FF;
   opacity:.6;
@@ -331,42 +320,19 @@ img {
   background: #FC0000;
   opacity:.6;
 }
+
 /* FOOTER  */
+
+/* Footer Logo */
 .footer-logo h2 {
-    font-size:3.7rem;
+  font-size:3.7rem;
 }
+
 .footer-logo .row{
   justify-content: center;
 }
-.footer-links {
-  margin: 0;
-}
-.contact-ads {
-  list-style:none;
-  display:inline-flex;
-  color: #073791;
-  }
-.contact-ads a{
-  font-size:1rem;
-  margin: 0 1rem;
-  color: #073791;
-}
-.contact-ads li:first-child {
-  border-right:1px solid #073791;
-}
-.footer-head {
-    font-size: 1.5rem;
-    color: #073791;
-    border-bottom: 1px solid;
-    border-radius: 0;
-  }
-  .footer-links a {
-    font-size: 1.1rem;
-    color: #6c757d;
-}
-.footer-copyright span{
-  color:#073791;
-}
+
+/* Footer Logo Ball */
 .ball{
   background-image:url("./OvalShadesLogo.png") ;
   height: 3.2rem;
@@ -386,230 +352,213 @@ img {
   transform: rotate(270deg);
 }
 
+/* Footer Support Links */
+.footer-head {
+  font-size: 1.5rem;
+  color: #073791;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+/* Footer Contact/Ads */
+.contact-ads {
+  list-style:none;
+  display:inline-flex;
+}
+
+.contact-ads a{
+  margin: 0 1rem;
+  color: #073791;
+}
+
+.contact-ads li:first-child {
+  border-right:1px solid #073791;
+}
+
+/* Footer Copyright */
 .footer-copyright-row{
     border-top: 1px lightgray solid;
-  }
-  /* MOBILE */
+}
+
+/*         MOBILE          */
+
   @media only screen and (min-width:360px) and (max-width:420px) {
-    body{
-      font-size: 16px;
-      background-color: #FCF0EB;
-      font-family: 'Maven Pro', sans-serif;
-    }
-    .navbar{
-      height: 3.5rem;
-      padding:0 0 1%;
-    }
-    .navbar button{
-      margin-left: 3%;
-      margin-top: 2%;
-    }
-    .navbar button:hover { outline: 0 !important }
-    .logo-row{
-      display: none;;
-    }
-    .navbar-brand{
-      width: 22.5%;
-      padding:0;
-    }
-    .logo-holder{
-       width: 100%;
-      justify-content: center;
-      display: flex;
-      padding: 0;
-    }
-    #logo-text{
-      position: relative;
-      border:none;
-    }
-    .navbar-nav{
-      padding-left: 2%;
-    }
-    .header{
-      padding-top: 15%;
-      margin-bottom: 0;
-    }
-    #login{
-      font-size:1.3rem;
-      font-weight:50;
-    }
-    .header h1 {
-      font-size:3.5rem;
-      margin:2.5rem 0 0;
-      font-weight: 800;
-    }
+.row{
+  margin: 0;
+}
 
-    .button-group{
-      width:100%;
-    }
-  /*  SLIDER METER + SORT BUTTON - NOT IN USE  */
-    .mobile-sort-btn {
-      width: 40%;
-      margin: 1.5rem auto;
-    }
-    .row{
-      margin: 0;
-    }
-    .mobile-filters{
-      display:inline-flex;
-      justify-content: space-around;
-      width: 100%;
-      padding:0;
-    }
-    .desktop-filters{
-      display:none;
-    }
-    input {
+/* NavBar */
+.navbar{
+  height: 3.5rem;
+  padding:0 0 1%;
+}
 
-     outline:none;
-    }
+/* NavBar Logo */
+.navbar-brand{
+  width: 22.5%;
+}
 
-    input[type=range]::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      height: 3.5rem;
-      width: 1.5rem;
-      background: gold;
-      cursor: pointer;
-      margin-top: -12px;
-      margin-bottom: 15px;
-    }
-    .bias{
-      display: none;
-    }
-    #instructions-line-2 {
-      font-size: 1rem;
-      z-index: 1;
-      margin: 1rem auto;
-      color: #290095;
-  }
+/* Header */
+.header{
+  padding-bottom: 0;
+}
 
-    #instructions-line-2:before {
-      border-bottom: 2px solid #290095;
-      content: "";
-      margin: 0 auto;
-      position: absolute;
-      top: 30px;
-      left: 0;
-      right: 0;
-      width: 95%;
-      z-index: -1;
-    }
+.header h1 {
+  font-size:3.5rem;
+  margin:2.5rem 0 0;
+  font-weight: 800;
+}
 
-    #instructions-line-2 span {
-        /* to hide the lines from behind the text, you have to set the background color the same as the container */
-        background: #FEF0EB;
-        padding: 0 15px;
-    }
+/* Filters */
+.mobile-filters{
+  display:inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  padding:0;
+}
 
-    #instructions-line {
-      font-size: 1rem;
-      z-index: 1;
-      margin: 1rem auto;
-      color: #290095;
-  }
+.desktop-filters{
+  display:none;
+}
 
-    #instructions-line:before {
-      border-bottom: 2px solid #290095;
-      content: "";
-      margin: 0 auto;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 81px;
-      width: 95%;
-      z-index: -1;
-    }
+.bias{
+  display: none;
+}
+/* Mobile Instructions Line  */
+#instructions-line-2 {
+  font-size: 1rem;
+  z-index: 1;
+  margin: 1rem auto;
+  color: #290095;
+}
 
-    #instructions-line span {
-        /* to hide the lines from behind the text, you have to set the background color the same as the container */
-        background: #FEF0EB;
-        padding: 0 15px;
-    }
+#instructions-line-2:before {
+  border-bottom: 2px solid #290095;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 95%;
+  z-index: -1;
+}
 
-  /*  FADE BOX METER  */
-    .fade-box-mobile{
-      display:flex;
-    }
-    .filter-box{
-      height: 4rem;
-      width: 100%;
-    }
-    .filter-box .row{
-      justify-content:center;
-    }
-    .fade-box{
-      display:none;
-    }
-    .fade-box-mobile{
-    margin:0;
+#instructions-line-2 span {
+  background: #FEF0EB;
+  padding: 0 15px;
+}
 
-    }
-    .fade-check{
-      margin:0;
-      border:none;
-      height: 3.5rem;
-  }
-    /* .fade-check button:hover { outline: 2px gold solid } */
+#instructions-line {
+  font-size: 1rem;
+  z-index: 1;
+  margin: 1rem auto;
+  color: #290095;
+}
 
+#instructions-line:before {
+  border-bottom: 2px solid #290095;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 81px;
+  width: 95%;
+  z-index: -1;
+}
 
-    .fade-check button{
-      height:3.5rem;
-      padding:0;
-    }
-    /*MAIN*/
-    #main {
-        border: 1px solid #000000;
-        display: flex;
-        flex-direction: column;
-        z-index:1;
-    }
+#instructions-line span {
+  background: #FEF0EB;
+  padding: 0 15px;
+}
 
-    .subline{
-      background: black;
-      margin-top:2rem;
-    }
-    .email-line{
-      display:none;
-    }
+  /*  Filter Colors  */
+.fade-box-mobile{
+  display:flex;
+}
 
-    /* Footer */
-    .footer-content{
-      padding: 4% 0 3%;
-    }
-    .ball{
-      display: none;
-    }
-    .right-foot-box {
-      padding-left: 0;
-    }
-    .contact-ads {
-      list-style: none;
-        display: inline-flex;
-        margin: 0;
-        padding: 0;
-      }
-    .contact-ads a {
-      font-size:.75rem;
-    }
+.filter-box{
+  height: 4rem;
+}
 
-    .footer-logo h2 {
-      font-size:2.7rem;
-  }
-    .footer-copyright{
-      width: 100%;
-      margin: 0;
-      height: 50px;
+.filter-box .row{
+  justify-content:center;
+}
 
-    }
-    .footer-copyright span{
-      font-size: .75rem;
-    }
-    .footer-links {
-      padding-left: 15%;
-    }
-    .footer-links a{
-      color: #34353F;
-      font-size:.8rem;
-    }
-  }
+.fade-box{
+  display:none;
+}
+
+.fade-box-mobile{
+  margin:0;
+}
+
+.fade-check{
+  margin:0;
+  border:none;
+  height: 3.5rem;
+}
+
+.fade-check button{
+  height:3.5rem;
+  padding:0;
+}
+/*MAIN*/
+#main {
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    z-index:1;
+}
+
+.subline{
+  background: black;
+  margin-top:2rem;
+}
+
+.email-line{
+  display:none;
+}
+
+/* Footer */
+
+.footer-content{
+  padding: 4% 0 3%;
+  font-size: .75rem;
+}
+
+.footer-logo h2 {
+  font-size:2.7rem;
+}
+
+.ball{
+  display: none;
+}
+
+/* Footer Support Links  */
+
+.footer-links {
+  padding-left: 15%;
+}
+
+.footer-links a{
+  color: #34353F;
+  font-size:.8rem;
+}
+
+.right-foot-box {
+  padding-left: 0;
+}
+
+/* Footer Copyright Line */
+
+.contact-ads a {
+  font-size:.75rem;
+}
+
+.footer-copyright{
+  height: 50px;
+}
+}

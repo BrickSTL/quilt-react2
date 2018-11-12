@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EmailLine = () => (
-  <div className="container-fluid email-line px-0">
+  <div className="container-fluid email-line">
       <div className="holder">
         <div className="col"></div>
         <div className="emailer col-4 p-3">
@@ -9,7 +9,7 @@ const EmailLine = () => (
       </div>
         <div className="form-group col-4 mx-5">
           <div className="row justify-content-center">
-          <label className=" text-center" id="email-label"for="exampleInputEmail1">Enter Email</label>
+          <label className=" text-center">Enter Email</label>
           </div>
           <input type="email" className="form-control" aria-describedby="emailHelp" />
         </div>

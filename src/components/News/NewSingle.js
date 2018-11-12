@@ -10,7 +10,7 @@ import React from 'react';
         <div className="card-image">
           <img src={item.urlToImage}/>
         </div>
-        <div className="article-text text-left">
+        <div className="article-text">
         <span style={{fontSize:'22px'}} className='row'>{item.title}</span>
         <span className='row'><p className='sourceDisplay'>{item.source.name}</p></span>
         <span className='row'>{item.author}</span>
@@ -38,6 +38,8 @@ import React from 'react';
         )
         break;
       /*RED 1*/
+      case 'Marketwatch.com':
+      case 'CNBC':
       case 'The Wall Street Journal':
         return (
           <div className="element-item red1 newsArticle col-md-3 col-sm">
@@ -46,11 +48,14 @@ import React from 'react';
         )
         break;
       /*BLUE 1*/
+      case 'CNN':
+      case 'Recode':
       case 'The New York Times':
       case 'Axios':
       case 'The Washington Post':
       case 'The Guardian (UK)':
       case 'NPR':
+      case 'The Verge':
       case 'BBC News':
         return (
           <div className="element-item blue1 col-md-3 col-sm">
