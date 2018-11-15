@@ -1,10 +1,11 @@
 import React from 'react';
 
 
-
+  //Article components
   const NewSingle = ({item}) => {
     let source = item.source.name;
     let image = item.urlToImage;
+    // Article design framework - Bootstrap + Istope.js
     let artFrame = (
       <a href={item.url} target='_blank'>
         <div className="card-image">
@@ -16,10 +17,10 @@ import React from 'react';
         <span className='row'>{item.author}</span>
         <span className='row'>{item.publishedAt}</span>
         <p className="row"><i className="fa fa-save"></i> Save Article</p>
-
         </div>
       </a>
     )
+    //Conditional statements that control filter shade based on news source
     switch (source) {
       /*RED 3*/
       case 'Breitbart News':
@@ -94,8 +95,5 @@ import React from 'react';
         )
     }
   };
-
-
-
 
 export default NewSingle;

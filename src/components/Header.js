@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Header = () => (
   <header className="header container-fluid">
     <div className='row'>
